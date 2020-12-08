@@ -33,7 +33,7 @@ int part1(int *input){
 }
 
 int main(){
-    ifstream input_file("./inputs/d1.txt");
+    ifstream input_file("inputs/d1.txt");
     int input[INPUT_LENGTH];
     for(int i = 0; i < INPUT_LENGTH; i++){
         input_file >> *(input+i);
